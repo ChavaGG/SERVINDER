@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servinder Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Servinder Web</h1>
+        <p>Esta es una versión web básica para conectar prestadores de servicios con clientes.</p>
+    </header>
+    
+    <section id="service-search">
+        <input type="text" id="search-bar" placeholder="Busca un servicio (ej. Jardinería)">
+        <button onclick="searchService()">Buscar</button>
+    </section>
+
+    <section id="results">
+        <h2>Resultados de búsqueda</h2>
+        <div id="service-list"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Servinder. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
